@@ -47,3 +47,12 @@ Probar peticiones API con las rutas posibles a utilizar:
 
 Visualizar JSON solicitado en el body de Postman
 
+
+# Diagramas
+
+## Diagramas de secuencia y clases
+
+Para describir el funcionamiento de la app, así como los atributos y métodos de cada modelo.
+
+![DiagramaSecuenciayClases](https://user-images.githubusercontent.com/72090281/235266577-57528db9-0f12-4367-bbb1-f24161e910d8.jpg)
+
