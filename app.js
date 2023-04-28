@@ -4,8 +4,8 @@ const cors = require("cors");
 const { json, urlencoded } = express;
 //servidor siendo ejecutado
 const app = express();
-//app escucha en puerto de env o en 8080
-const port = process.env.PORT || 8080;
+//app escucha en puerto de env o en 8090
+const port = process.env.PORT || 8090;
 
 //src
 const pokemonRoutes = require("./src/routes/pokemonRoutes");
