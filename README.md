@@ -28,3 +28,17 @@ Se podrá ver la imagen de Docker en la aplicación
 
 docker run -p 3000:8080 -d --name nodejs-sps-container nodejs-sps
 
+## Probar microservicio
+
+### Probar microservicio con cliente REST Postman
+
+Probar peticiones API con las rutas posibles a utilizar: 
+GET /api/ability/: 
+GET /api/pokemon/:
+GET /api/locationArea/:
+Donde ':' es el id o nombre deseado
+
+### Resultados
+
+Visualizar JSON solicitado en el body de Postman
+
