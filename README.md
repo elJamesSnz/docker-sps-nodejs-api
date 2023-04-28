@@ -14,7 +14,10 @@ Tener instalado lo siguiente:
 
 ### Clonar repositorio
 
-git clone https://github.com/elJamesSnz/docker-sps-nodejs-api.git
+- git clone https://github.com/elJamesSnz/docker-sps-nodejs-api.git
+
+### Moverse al directorio del proyecto
+
 cd docker-sps-nodejs-api
 
 ### Construir la imagen de Docker
@@ -33,10 +36,12 @@ docker run -p 3000:8080 -d --name nodejs-sps-container nodejs-sps
 ### Probar microservicio con cliente REST Postman
 
 Probar peticiones API con las rutas posibles a utilizar: 
-GET /api/ability/: 
-GET /api/pokemon/:
-GET /api/locationArea/:
-Donde ':' es el id o nombre deseado
+-GET /api/ability/: 
+-GET /api/pokemon/:
+-GET /api/locationArea/:
+
+*Donde ':' es el id o nombre deseado
+*El puerto en localhost es el 3000, por lo que una URL se vería así: http://localhost:3000/api/pokemon/1
 
 ### Resultados
 
