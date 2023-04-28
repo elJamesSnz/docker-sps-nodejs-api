@@ -43,7 +43,7 @@ Probar peticiones API con las rutas posibles a utilizar:
 *Donde ':' es el id o nombre deseado
 *El puerto en localhost es el 3000, por lo que una URL se vería así: http://localhost:3000/api/pokemon/1
 
-### Resultados
+## Resultados
 
 Visualizar JSON solicitado en el body de Postman
 
