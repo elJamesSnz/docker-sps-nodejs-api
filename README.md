@@ -3,6 +3,8 @@
 Este repositorio contiene un microservicio desarrollado en Node.js dentro de un contenedor Docker.
 El microservicio facilita una API REST para que sea consumida con clientes REST como Postman.
 
+# Ejecución
+
 ## Atecedentes
 
 Tener instalado lo siguiente:
@@ -14,7 +16,7 @@ Tener instalado lo siguiente:
 
 ### Clonar repositorio
 
-- git clone https://github.com/elJamesSnz/docker-sps-nodejs-api.git
+git clone https://github.com/elJamesSnz/docker-sps-nodejs-api.git
 
 ### Moverse al directorio del proyecto
 
@@ -48,11 +50,20 @@ Probar peticiones API con las rutas posibles a utilizar:
 Visualizar JSON solicitado en el body de Postman
 
 
-# Diagramas
+# Documentación
 
 ## Diagramas de secuencia y clases
 
 Para describir el funcionamiento de la app, así como los atributos y métodos de cada modelo.
 
 ![DiagramaSecuenciayClases](https://user-images.githubusercontent.com/72090281/235266577-57528db9-0f12-4367-bbb1-f24161e910d8.jpg)
+
+## Puertos
+
+Es posible exponer un puerto en Docker con EXPOSE <puerto> (instruccion agregada en el Dockerfile). Esta instrucción indica que el contenedor estará configurado para escuchar conexiones en ese puerto. Por otro lado, podemos asignar un puerto al contenedor que permita comunicación con el exterior, en este ejemplo, el puerto 3000.
+
+En resumen: Nuestra máquina en localhost se comunica al contenedor desde el 3000 y el contenedor a su vez permite la comunioación interna por el puerto 8090.
+
+
+
 
