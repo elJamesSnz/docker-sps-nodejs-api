@@ -31,7 +31,7 @@ Se podrá ver la imagen de Docker en la aplicación
 
 ### Ejecutar contenedor Docker
 
-docker run -p 3000:8080 -d --name nodejs-sps-container nodejs-sps
+docker run -p 3000:8090 -d --name nodejs-sps-container nodejs-sps
 
 ## Probar microservicio
 
