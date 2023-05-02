@@ -24,7 +24,9 @@ cd docker-sps-nodejs-api
 
 ### Construir la imagen de Docker
 
-docker build -t nodejs-sps
+Ejecutar Docker Desktop
+
+docker build -t nodejs-sps .
 
 Se podrá ver la imagen de Docker en la aplicación
 
